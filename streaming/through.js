@@ -5,6 +5,7 @@ function write (buf) {
 }
 
 function end() {
+	this.queue(null)
 }
 
 var tr = through(write,end);

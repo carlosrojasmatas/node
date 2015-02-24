@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"curr",
+				"currGenre"
+			],
+			[
 				"HADOOP",
 				"HADOOP_YARN_HOME"
 			],
@@ -92,59 +96,18 @@
 	"buffers":
 	[
 		{
-			"file": "streaming/beep.js",
+			"file": "streaming/crypt.js",
 			"settings":
 			{
-				"buffer_size": 25,
-				"line_ending": "Unix",
-				"name": "console.log(\"beep boop\""
-			}
-		},
-		{
-			"file": "streaming/meet.js",
-			"settings":
-			{
-				"buffer_size": 99,
+				"buffer_size": 178,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "streaming/intoout.js",
+			"file": "streaming/secretz.js",
 			"settings":
 			{
-				"buffer_size": 35,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "streaming/through.js",
-			"settings":
-			{
-				"buffer_size": 198,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "streaming/uppercase.js",
-			"settings":
-			{
-				"buffer_size": 363,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "streaming/reverse.js",
-			"settings":
-			{
-				"buffer_size": 153,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "streaming/http.js",
-			"settings":
-			{
-				"buffer_size": 423,
+				"buffer_size": 558,
 				"line_ending": "Unix"
 			}
 		}
@@ -234,10 +197,28 @@
 	"expanded_folders":
 	[
 		"/home/charly/Documents/courses/node",
+		"/home/charly/Documents/courses/node/learnyournode",
 		"/home/charly/Documents/courses/node/streaming"
 	],
 	"file_history":
 	[
+		"/home/charly/Documents/courses/node/streaming/crypt.js",
+		"/home/charly/Documents/courses/node/streaming/combiner.js",
+		"/home/charly/Documents/courses/node/streaming/intoout.js",
+		"/home/charly/Documents/courses/node/streaming/duplexer-redux.js",
+		"/home/charly/Documents/courses/node/streaming/duplexer.js",
+		"/home/charly/Documents/courses/node/streaming/html-stream.js",
+		"/home/charly/Documents/courses/node/streaming/web-socket.js",
+		"/home/charly/Documents/courses/node/streaming/http-client.js",
+		"/home/charly/Documents/courses/node/streaming/http-server.js",
+		"/home/charly/Documents/courses/node/streaming/through.js",
+		"/home/charly/Documents/courses/node/streaming/beep.js",
+		"/home/charly/Documents/courses/node/streaming/meet.js",
+		"/home/charly/Documents/courses/node/streaming/uppercase.js",
+		"/home/charly/Documents/courses/node/streaming/reverse.js",
+		"/home/charly/Documents/courses/node/streaming/http.js",
+		"/home/charly/Documents/courses/node/javascripting/introduction.js",
+		"/home/charly/Documents/courses/node/javascripting/accessing-array-values.js",
 		"/home/charly/Documents/courses/node/javascripting/funcargs.js",
 		"/home/charly/Documents/courses/node/javascripting/variables.js",
 		"/home/charly/Documents/courses/node/javascripting/strings.js",
@@ -348,28 +329,11 @@
 		"/home/charly/Documents/courses/m-l/exercise-3/ml_login_data.mat",
 		"/home/charly/Documents/courses/m-l/exercise-3/fmincg.m",
 		"/home/charly/Documents/courses/m-l/exercise-3/lrCostFunction.m",
-		"/home/charly/Documents/courses/m-l/exercise-3/sigmoid.m",
-		"/home/charly/Documents/courses/m-l/exercise-3/submitWeb.m",
-		"/home/charly/Documents/courses/m-l/exercise-2/ex2data1.txt",
-		"/home/charly/Documents/courses/m-l/exercise-3/ex3.m",
-		"/home/charly/Documents/courses/m-l/exercise-4/sigmoidGradient.m",
-		"/home/charly/Documents/courses/m-l/exercise-4/nnCostFunction.m",
-		"/home/charly/Documents/courses/m-l/exercise-4/randInitializeWeights.m",
-		"/home/charly/Documents/courses/m-l/exercise-3/oneVsAll.m",
-		"/home/charly/Documents/courses/m-l/exercise-3/predict.m",
-		"/home/charly/Documents/courses/m-l/exercise-3/predictOneVsAll.m",
-		"/home/charly/Documents/courses/m-l/exercise-3/ex3data1.mat",
-		"/home/charly/Documents/courses/m-l/exercise-2/costFunction.m",
-		"/home/charly/Documents/courses/m-l/exercise-2/plotDecisionBoundary.m",
-		"/home/charly/development/workspaces/aes/aes-s2/app/Resources/views/base.html.twig",
-		"/home/charly/development/workspaces/aes/aes-s2/web/bundles/site/css/main.css",
-		"/home/charly/development/workspaces/aes/aes-s2/web/bundles/site/css/gallery/slidorion.css",
-		"/home/charly/development/workspaces/aes/aes-s2/web/bundles/site/css/slider_multiple.css",
-		"/home/charly/development/workspaces/aes/aes-s2/vendor/twig/twig/doc/filters/slice.rst"
+		"/home/charly/Documents/courses/m-l/exercise-3/sigmoid.m"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
@@ -497,7 +461,7 @@
 			"<?"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -515,29 +479,28 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "streaming/beep.js",
+					"file": "streaming/crypt.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25,
+						"buffer_size": 178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "console.log(\"beep boop\"",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -549,159 +512,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "streaming/meet.js",
+					"file": "streaming/secretz.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 99,
+						"buffer_size": 558,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								97,
-								97
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "streaming/intoout.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 35,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								35,
-								35
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "streaming/through.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 198,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34,
-								34
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haskell/Haskell.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "streaming/uppercase.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 363,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								337,
-								337
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "streaming/reverse.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 153,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "streaming/http.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 423,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								292,
-								292
+								558,
+								558
 							]
 						],
 						"settings":
@@ -720,7 +543,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -768,7 +591,7 @@
 	"project": "node.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
